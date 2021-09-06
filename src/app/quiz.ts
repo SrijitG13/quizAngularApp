@@ -4,6 +4,6 @@ import { JsonObjectExpression, ObjectLiteralExpression } from "typescript";
 export interface quiz {
     quesno: string;
     ques: string;
-    choice: any;
+    choice: string[];
     ans: string;
 }
